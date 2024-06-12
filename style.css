@@ -1,0 +1,461 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    background-color: black;
+    color: white;
+    z-index: 1000000;
+}
+button{
+    background-color: #00000000;
+    border: none;
+    color: white;
+}
+button:hover{
+    cursor:pointer;
+}
+button:active{
+    color: black;
+}
+
+.riot{
+    height: 80px;
+    width: 100px;
+    margin-right: -60px;
+}
+.riot img{
+    height: 80px;
+}
+.lol{
+    height: 80px;
+    width: 100px;
+    padding: 25px;
+    margin-right: -120px;
+    margin-left: 200px;
+}
+.lol img{
+    height: 40px;
+}
+.lingua{
+    height: 80px;
+    width: 100px;
+    padding-left: -35px;
+}
+.lingua img{
+    height: 35px;
+}
+.pesquisa{
+    height: 40px;
+    width: 38px;
+    background-color: white;
+    border-radius: 100%;
+}
+.pesquisa img{
+    height: 40px;
+}
+.blocos{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    justify-items: center;
+    width: 120px;
+    margin-right: -45px;
+}
+
+.jogo ,.campeoes ,.noticias ,.patchnote ,.mais2 ,.pesquisa ,.lingua ,.iniciar ,.jogar,.lol,.menu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: -35px;
+ 
+}
+.jogo{
+    margin-left: -65px;
+}
+.a1{
+    width: 100vw;
+    margin-top: 80px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 917px;
+}
+.ingifs{
+    filter: blur(10px);
+    height: 917px;
+    width: 100%;
+}
+.iniciar{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -50px;
+    margin-left: -60px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 13px;
+}
+.jogar{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    margin-left: -25px;
+    margin-right: 20px;
+    border-radius: 45px;
+    background-color: rgb(11, 196, 226);
+}
+.mais2{
+    margin-right: 60px;
+}
+
+.ant, .ant2{
+    z-index: 9999;
+    height: 414px;
+    width: 836px;
+    height: auto;
+    position: absolute;
+    top: 20vw;
+    margin: 0 auto;
+
+
+}
+
+.ant2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    z-index: 99999;
+    height: 414px; 
+    width: 836px;
+    border: solid hsl(51, 40%, 50%) 1px;
+    margin: 20px;
+    margin-left: 75px;
+}
+
+.ant img{
+    width: 100%;
+    height: 100%;
+}
+.ant2 img{
+    height: 300px;
+}
+.buton{
+    border: none;
+    padding: 15px;
+    background-color: rgb(11, 196, 226);
+    border: solid hsl(51, 40%, 50%) 1px;
+}
+.a2{
+    width: 100vw;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.a3, .a4, .a5{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    border: solid hsl(51, 40%, 50%) 1px;
+    background-color: white;
+}
+.a3, .a4, .a5:hover{
+    cursor:pointer;
+}
+.a3 img{
+    height: 132px;
+    width: 110px;
+    margin: 10px;
+    object-fit: cover;
+}
+.a4 img{
+    height: 132px;
+    width: 180px;
+    margin: 10px;
+    object-fit: cover;
+}
+.a5 img{
+    height: 132px;
+    width: 180px;
+    margin: 10px;
+    object-fit: cover;
+}
+.sim{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.nd{
+    transform: rotate(270deg);
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+}
+.menu{
+    display: none;
+}
+.noticias2{
+    margin-right: -200px;
+    display: flex;
+    text-align: center;
+}
+.quadrado{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.mais p{
+    color: aqua;
+
+}
+.mais{
+    align-self: flex-end;
+    margin-right: 60px;
+    display: flex;
+    margin-top: -20PX;
+}
+.mais:hover{
+    cursor: pointer;
+}
+.diva{
+    width: 100vw;
+    height: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.maais{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: start;
+    align-content: center;
+    background-color: white;
+
+}
+.destaque p{
+    transform: rotate(270deg);
+    font-weight: bold;
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    align-self: flex-start;
+}
+
+.destaque {
+    margin-right: -200px;
+    display: flex;
+    text-align: center;
+    color: black;
+    margin-top: 65px;
+}
+.descubra{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.descubra2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.des{
+    font-size: 35px;
+    align-self:center ;
+}
+.bra{
+    font-size: 100px;
+}
+.blocoss{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+.bloco2 img{
+    height: 250px;
+    width: 460px;
+    object-fit: cover;
+    image-rendering: auto;
+
+}
+.bloco1 img{
+    height: 250px;
+    width: 460px;
+    object-fit: cover;
+    /* image-rendering:crisp-edges; */
+}
+
+.bloco1, .bloco2{
+    height: 500px;
+    width: 460px;
+    margin: 15px;
+    border: solid hsl(51, 40%, 50%) 1px;
+    display: flex;
+    flex-direction: column;
+}
+.bloco1, .bloco2:hover{
+    cursor: pointer;
+}
+.tex{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 414px){
+    .jogo ,.campeoes ,.noticias ,.patchnote ,.mais2 ,.pesquisa ,.iniciar ,.jogar, .destaque{
+        display: none;
+    }
+    header{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+    }
+    .ant2{
+        border: none;
+    }
+    .ant2 img{
+        width: 375px;
+        margin-right: 50px;
+    }
+    .buton{
+        margin-right: 70px;
+    }
+    .ant img{
+        
+        height: 500px;
+        width: 100%;
+    }
+    .ingifs{
+        display: none;
+    }
+    .riot{
+        margin-right: 40px;
+    }
+    .lol{
+        margin-right: 100px;
+    }
+
+    .a1{
+        height: 500px;
+    }
+    body{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+    .menu{
+        height: 50px;
+        width: 70px;
+        margin: 10px;
+        display: block;
+    }
+    .menu img{
+        height: 50px;
+        width: 70px;
+    }
+    .lingua{
+        margin-right: -20px;
+    }
+    .noticias2{
+        transform: rotate(-270deg);
+        align-self: flex-start;
+        margin-top: 20px;
+    }
+    .quadrado{
+        overflow: scroll;
+    }
+    .des{
+        font-size: 20px;
+        align-self:center ;
+    }
+    .bra{
+        font-size: 80px;
+        margin-left: 40px;
+    }
+    .mais{
+        margin-left: 50px;
+    }
+    .blocoss{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .bloco1, .bloco2{
+        height: 290px;
+        width: 230px;
+        margin: 15px;
+        border: solid hsl(51, 40%, 50%) 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bloco2 img{
+        height: 125px;
+        width: 230px;
+        object-fit: cover;
+        image-rendering: auto;
+    
+    }
+    .bloco1 img{
+        height: 125px;
+        width: 230px;
+        object-fit: cover;
+        /* image-rendering:crisp-edges; */
+    }
+}
