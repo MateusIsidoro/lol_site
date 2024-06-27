@@ -139,7 +139,7 @@ button:active{
     z-index: 9999;
     height: 414px;
     width: 836px;
-    height: auto;
+    height: 400px;
     position: absolute;
     top: 20vw;
     margin: 0 auto;
